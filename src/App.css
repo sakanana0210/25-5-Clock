@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #f09541;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.top-controls, .bottom-controls{
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-controls{
+  margin-bottom: 20px;
+}
+
+.length-control {
+  background-color: #fffade;
+  max-width: 200px;
+  width: 15%;
+  height: 150px;
+  min-width: 80px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  border: #ffc76e 3px solid;
+  font-size: 25px;
+  color: #f09541;
+  font-weight: bold;
+}
+
+.length-control > button{
+  background-color: #ffc76e;
+  border: #ffc76e 3px solid;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.timer > button{
+  background-color: #ffc76e;
+  border: #ffc76e 3px solid;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.timer {
+  background-color: #fffade;
+  border: #ffc76e 3px solid;
+  font-size: 25px;
+  color: #f09541;
+  font-weight: bold;
+  min-width: 200px;
+  width: calc(30% + 70px);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#time-left {
+  font-size: 50px;
+}
+
+@media (max-width: 1200px) {
+  .length-control {
+    width: 130px;
+    height: 180px;
+  }
+  .timer {
+    width: 320px;
+  }
+}
